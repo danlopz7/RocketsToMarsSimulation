@@ -17,7 +17,7 @@ fun main() {
         println("Running Phase 1 on U1 Rocket units: ")
         val run1 = sim.runSimulation(fleetU1Phase1)
 
-        val fleetU1Phase2 = sim.loadU2(phase2)
+        val fleetU1Phase2 = sim.loadU1(phase2)
         println("Running Phase 2 on U1 Rocket units: ")
         val run2 = sim.runSimulation(fleetU1Phase2)
         println("Total budget required for phase 1 and phase 2 on Rockets U1: ${run1 + run2} millions \n ")
